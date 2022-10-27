@@ -29,7 +29,7 @@ namespace ConsoleApp1
             ProcessStartInfo startInfo = new ProcessStartInfo();
             startInfo.CreateNoWindow = false;
             startInfo.UseShellExecute = false;
-            startInfo.FileName = "C:\\Users\\H261112\\source\\repos\\IPC\\PyClient\\dist\\pythonclient.exe";
+            startInfo.FileName = @"C:\Users\H261112\source\repos\LatestLAS\PythonCSharpLAS\PyClient\dist\pythonclient.exe";
             startInfo.WindowStyle = ProcessWindowStyle.Hidden;
             //startInfo.Arguments = "sregergergrewgergergergregewr";
             int result;
