@@ -10,8 +10,8 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             var t = new Producer();
-            Thread.Sleep(2000);
-            Task.Run(() => RunPythonProcess());
+            //Thread.Sleep(2000);
+            //Task.Run(() => RunPythonProcess());
             Thread.Sleep(10000);
             Console.WriteLine("Infrastructure established");
             while (true)
