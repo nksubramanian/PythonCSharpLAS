@@ -74,11 +74,11 @@ try:
         s = f.read(n).decode('ascii')  # Read str
         f.seek(0)
         print('Read:', s)
-        time.sleep(3)
+        #time.sleep(3)
         words = s.split(',')
         print("_________________________")
-        with open(r'C:\Users\H261112\source\repos\pyout\subbu.txt', 'w') as files:
-            files.write(words[0]+" "+words[1]+" "+words[2])
+        #with open(r'C:\Users\H261112\source\repos\pyout\subbu.txt', 'w') as files:
+        #    files.write(words[0]+" "+words[1]+" "+words[2])
         print("___________________________")
         LASfile = words[0]
         OpToBeDone = words[0]
