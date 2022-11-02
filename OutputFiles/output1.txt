@@ -1,0 +1,16 @@
+Mnemonic  Unit  Value    Description      
+--------  ----  -----    -----------      
+STRT      FT    100.0                     
+STOP      FT    5300.0                    
+STEP      FT    0.5                       
+NULL            -999.25                   
+COMP                     COMPANY          
+WELL                     WELL             
+FLD                      FIELD            
+CNTY                     COUNTY           
+STAT                     STATE            
+CTRY                     COUNTRY          
+SRVC                     SERVICE COMPANY  
+DATE                     DATE             
+API                      API NUMBER       
+UWI                      UWI NUMBER       
